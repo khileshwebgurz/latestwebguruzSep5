@@ -1,0 +1,518 @@
+/*service page*/
+
+.earntrfimg img {
+    max-width: max-content;
+  }
+  .earntraffic {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .earntraffic .earntrafficinr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex-basis: 30%;
+    padding: 24px;
+    align-items: center;
+    box-shadow: 0px 2px 15px 1px rgb(0 0 0 / 8%);
+  }
+  .earntraffic .earntrafficinr .earntrfcnt {
+    text-align: center;
+  }
+  
+  .earntraffic .earntrafficinr .earntrfcnt h5 {
+    padding: 14px 0px;
+    margin-bottom: 0px;
+  }
+  .indstrsrv {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .indstrsrv .indstrsrvinr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background: #f9f9f9;
+    padding: 20px;
+    flex-basis: 48%;
+    border-radius: 8px;
+  }
+  
+  .indstrsrv .indstrsrvinr h5 {
+    position: relative;
+    padding-left: 18px;
+  }
+  
+  .indstrsrv .indstrsrvinr h5:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(45deg, #1890c9, #4772d4);
+    position: absolute;
+    top: 11px;
+    left: 0;
+    border-radius: 50px;
+  }
+  
+  .creativeprtfl {
+    padding: 0px 80px;
+  }
+  .creativeprtfl .creativeprtflinr {
+    padding: 0px 20px;
+    text-align: center;
+  }
+  
+  .creativeprtfl .creativeprtflinr p {
+    margin-bottom: 0px;
+    padding-top: 12px;
+  }
+  .creativeprtfl .slick-arrow {
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #e2e2e2;
+    border-radius: 50px;
+  }
+  .creativeprtfl .slick-arrow::before {
+    display: none;
+  }
+  
+  .creativeprtfl .slick-arrow img {
+    transform: scale(0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .creativeprtfl .slick-arrow.slick-next {
+    right: -70px;
+  }
+  
+  .creativeprtfl .slick-arrow.slick-prev {
+    left: -70px;
+  }
+  
+  .viewbtn {
+    padding-top: 20px;
+  }
+  .servteaminr img {
+    max-width: max-content;
+  }
+  
+  .servteaminr {
+    text-align: center;
+  }
+  .teamquality .teamqualityinr h4 {
+    position: relative;
+  }
+  .teamquality .teamqualityinr h4:before {
+    content: url(../../../../public/images/serviceImages/check-arrow.svg);
+    position: absolute;
+    top: 5px;
+    left: -40px;
+  }
+  .row.qteam {
+    align-items: center;
+  }
+  
+  .teamquality .teamqualityinr {
+    padding: 20px 20px 20px 60px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 56px 0px rgb(0 0 0 / 7%);
+  }
+  .teamquality .teamqualityinr h4 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .addspartnr h3.color-wt {
+    color: #fff;
+  }
+  .py-8 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .earntraffic .earntrafficinr:hover {
+    box-shadow: 0px 0px;
+    border: 1px solid #ddd;
+  }
+  .service-banner .heading-main h2 {
+    font-size: 54px;
+    max-width: 480px;
+}
+  .earntraffic .earntrafficinr {
+    transition: 0.3s ease-in-out 0s;
+    cursor: pointer;
+    border: 1px solid #fff;
+  }
+  .indstrsrv .indstrsrvinr:hover {
+    background: #fff;
+    border: 1px solid #ddd;
+    transition: 0.3s ease-in-out 0s;
+  }
+  
+  .indstrsrv .indstrsrvinr {
+    border: 1px solid #fff;
+  }
+  
+  .service-banner {
+    display: flex;
+    align-items: center;
+  }
+  .service-right-banner img {
+    max-width: 560px;
+    margin: auto;
+    animation-name: topbottom;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    position: relative;
+}
+
+  .heading-main h2 span{
+    color: #168B9A;
+    position: relative;
+    display: inline-block;
+  }
+  h6.dot {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .maximized{
+    position: relative;
+  }
+  .maximized .content {
+    max-width: 923px;
+    margin: auto;
+  }
+  .quote-main h4 {
+    padding: 14px 0px;
+    border-radius: 0px;
+    margin: 0px;
+    border: 2px solid #47C7D8;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: center;
+    color: #47C7D8;
+  }
+  .quote-content {
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #E8E8E8;
+    padding: 20px;
+    background: #F5F8FA;
+  }
+  .quote-content label textarea, .quote-content label {
+    width: 100%;
+  }
+  .quote-content .merge-main label {
+    width: 47%;
+    margin-bottom: 20px;
+  }
+  .merge-main input {
+    width: 100%;
+    padding: 8px 12px;
+    margin-top: 6px;
+    border: 1px solid #CBD6E2;
+    border-radius: 3px;
+    background-color: transparent;
+  }
+  .quote-content ul li {
+    padding: 0px 0px 10px 22px;
+    position: relative;
+    background-image: url(../../../../public/images/serviceImages/Checkmark.png);
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: left 5px;
+    font-size: 18px;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
+  .process-main {
+    background: linear-gradient(90deg, #F5F7FE 0%, #F7FCFF 100%);
+  }
+  .process-main .content ul li {
+    position: relative;
+    padding: 0px 0px 20px 60px;
+  }
+  .process-main .content ul li::before {
+    content: "";
+    position: absolute;
+    left: 18px;
+    width: 1px;
+    border-right: 1px dashed #8B99B0;
+    top: 54px;
+    bottom: 0;
+    height: 40%;
+  }
+  .process-main .content ul li:last-child::before {
+    display: none;
+  }
+  .heading-main.heading-content p {
+    max-width: 1140px;
+    margin: 20px auto 30px;
+}
+  span.number {
+    border: 1px solid #DCE3EE;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50px;
+    background: #EEF2F7;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .process-main::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-image: linear-gradient(90deg, #F5F7FE 0%, #F7FCFF 100%);
+    z-index: -1;
+  }
+  .process-main {
+    position: relative;
+    z-index: 0;
+  }
+  ul.toolsicon-list li img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  ul.toolsicon-list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  ul.toolsicon-list li {
+    width: 15%;
+    text-align: center;
+    box-shadow: 0px 4px 15px 0px #0000000D;
+    background: #F1F2F2;
+    padding: 15px;
+    margin: 7px;
+    transition: 0.3s ease-in-out 0s;
+  }
+  ul.toolsicon-list li:hover{
+    box-shadow: none;
+  }
+  .digital-marketing .container {
+    max-width: 980px;
+    margin: auto;
+  }
+  .digital-marketing .image img {
+    width: auto;
+  }
+  form.quote-form .merge-main {
+    display: flex;
+    justify-content: space-between;
+  }
+  .quote-content label textarea {
+    border: 1px solid #CBD6E2;
+    min-height: 100px;
+    background-color: transparent;
+    border-radius: 3px;
+    padding: 8px 12px;
+    margin-top: 6px;
+  }
+  .quote-content h5 span {
+    padding-left: 6px;
+  }
+  .quote-content h5 img {
+    width: auto;
+    padding-right: 8px;
+  }
+  .process-main .image img {
+    width: auto;
+  }
+  .boost-ranking video {
+    border-radius: 12px;
+    width: 100%;
+  }
+  .quote-content h5 {
+    margin: 0px 0px 15px 0px;
+    display: flex;
+    align-items: center;
+  }
+/* faq style start */
+.faq-content .accordionNew {
+  width: 100%;
+  padding: 12px 40px 12px 12px;
+  border: 1px solid #20a0b1;
+  margin: 22px 0px 0px;
+  position: relative;
+}
+
+.faq-content .accordionNew span {
+  position: absolute;
+  right: 20px;
+  font-size: 30px;
+  font-weight: 300;
+  top: 0;
+}
+.faq-content .accordionNew.active div {
+  color: #fff;
+}
+.faq-content .accordionNew.active span{
+  color: #fff;
+}
+.faq-content .accordionNew .accContentMain {
+  margin-top: 26px;
+}
+.faq-content .accordionNew .according-heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.faq-content .accordionNew.active {
+  background-color: #20a0b1;
+  border-color: #20a0b1;
+}
+.faq-content .accordionNew .according-heading {
+  font-size: 20px;
+  font-weight: 500 !important;
+  font-family: var(--font-outfit);
+}
+
+
+.servteaminr img, .process-main .image img {
+  width: 100%;
+  max-width: 450px;
+}
+.digital-marketing .image {
+  text-align: center;
+}
+.digital-marketing .image img {
+  width: 100%;
+  max-width: 250px;
+  margin: auto;
+}
+
+.counter-main .container .row:last-child {
+  justify-content: center;
+  margin-top: 32px;
+}
+.counter-main .explore-btn {
+  border-radius: 50px;
+  display: flex;
+  width: auto;
+  padding: 12px 30px;
+}
+.service-counter .heading-main p {
+  margin: 12px auto 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+  @keyframes topbottom {
+    0%   {top:0px;}
+    25%  {top:4px;}
+    50%  {top:8px;}
+    75%  {top:4px}
+    100% {top: 2px;}
+  }
+  
+  /* media query */
+@media(max-width: 1199px){
+    ul.toolsicon-list li {
+        width: 23%;
+    }
+    
+}
+@media(max-width: 767px){
+  .service-banner .heading-main h2 {
+    font-size: 38px;
+    line-height: 38px;
+}
+.creativeprtfl .slick-arrow {
+  width: 35px;
+  height: 35px;
+}
+.indstrsrv .indstrsrvinr h5:before{
+  top: 6px;
+}
+.quote-content ul li {
+  font-size: 14px;
+}
+    .boost-ranking video,.digital-marketing .image img,.process-main .image img {
+        width: 100%;
+    }
+    .process-main .heading-main p {
+        padding-bottom: 0px !important;
+    }
+    .process-main .image img {
+        padding-bottom: 50px;
+    }
+    .quote-main {
+        padding-top: 30px;
+    }
+    ul.toolsicon-list li {
+        width: 43%;
+    }
+    .boost-ranking .row >div {
+        width: 100%;
+        flex: auto;
+    }
+    .boost-ranking .row {
+        flex-direction: column;
+    }
+
+    .earntraffic .earntrafficinr {
+      flex-basis: 47%;
+    }
+  
+    .indstrsrv .indstrsrvinr {
+      flex-basis: 47%;
+    }
+    .earntraffic .earntrafficinr {
+      flex-basis: 47%;
+    }
+  
+    .indstrsrv .indstrsrvinr {
+      flex-basis: 47%;
+    }
+  
+    .servteaminr {
+      padding-bottom: 40px;
+    }
+  
+    .row.qteam {
+      padding-top: 0px;
+    }
+    .boost-ranking .content-left.heading-main {
+      text-align: center;
+  }
+
+}
+
+@media(max-width: 575px){
+    .digital-marketing .content {
+        text-align: center;
+    }
+    .earntraffic .earntrafficinr,
+    .indstrsrv .indstrsrvinr {
+      flex-basis: 100%;
+    }
+    .servteaminr {
+      padding-bottom: 40px;
+    }
+    .row.qteam {
+      padding-top: 0px;
+    }
+    .service-counter .explore-btn {
+      max-width: 250px;
+      margin: auto;
+  }
+  .counter-main .container .row:last-child{
+    margin-top: 0px;
+  }
+}
